@@ -1,18 +1,18 @@
 //We're in a job interview. Answer the following questions (try to not look at your notes unless you have to).
   // 1) What is the purpose of the 'this keyword'?
 
-      //Answer  IN order to specify context of certain commands, like methods inside of objects or certain closures that require more specificity than a variable name.
+      //Answer  In order to specify context of certain commands, like methods inside of objects or certain closures that require more specificity than a variable name.
 
   // 2) What are the four rules that govern what the 'this keyword' is bound to and describe each?
 
       //Answer 1) When contained in a global scope, the value of this will be the window object. This just means that without any other parent function, this will refer to the window. 2) Whenever a function is called by a preceding dot, the object before that dot is this. This just means that this is used to call the function that is to the left of the dot. Just as you would call a method with a var. 3) Whenever a constructor function is used, this refers to the specific instance of the object that is created and returned by the constructor function. This means that this will refer to the specific object created by the constructor. 4) Whenever JavaScript’s call or apply method is used, this is explicitly defined. You can use call or apply to put this into a different context than what would have been used as default.
   // 3) What is the difference between call and apply?
 
-      //Answer
-
+      //Answer 1) Implicit binding, contextual placement of this. 2) Explicit binding, value of this is specified. 3> Default binding, window is bound. 4) Keyword: New. Invoke a function constructor.
+     // You can use apply to specify arguments inside of an array.
   // 4) What does .bind do?
 
-      //Answer We use it to set the value for this, and to curry functions.
+      //Answer We use it to set the value for this, and to curry functions. Set a fixed value for this.
 
 
 //Next Problem
